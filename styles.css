@@ -38,6 +38,42 @@ footer {
     color: black;
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 335px;
+    font-size: 12px;
+    background-color: #e3e3e1;
+    color: #444444;
+    text-align: left;
+    padding: 5px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    width: 335px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+.andadam {
+    text-align: left;
+    margin-left: 5%;
+    margin-top: -3%;
+    color: black;
+    font-family: 'Courier New';
+}
+
+
 
 
 /* about.html */
