@@ -115,6 +115,20 @@ footer {
     clear: both;
 }
 
+/* writings.html >> standard box template */
+.border-writings {
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 20%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border-style: solid;
+    border-color: #5D564C;
+    background-color: #dad2c9;
+    border-width: 1px;
+    text-align: center;
+}
+
 
 /* writings.html >> THE TRUE COST OF A CUP OF COFFEE */
 #text-writings-coffee {
@@ -147,19 +161,6 @@ footer {
 
 
 /* writings.html >> LOVE IS A SERIES OF SHORT PRAYER*/
-.border-writings {
-    margin-top: 1%;
-    margin-left: 5%;
-    margin-right: 20%;
-    padding-right: 1%;
-    padding-left: 1%;
-    border-style: solid;
-    border-color: #5D564C;
-    background-color: #dad2c9;
-    border-width: 1px;
-    text-align: center;
-}
-
 #text-writings-love {
     float: left;
     width: 14%;
