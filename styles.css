@@ -115,8 +115,8 @@ footer {
     clear: both;
 }
 
-/* writings.html >> standard box template */
-.border-writings {
+/* writing.html >> standard box template */
+.border-writing {
     margin-top: 1%;
     margin-left: 5%;
     margin-right: 20%;
@@ -129,8 +129,8 @@ footer {
     text-align: center;
 }
 
-/* writings.html >> HEIDEGGER's BEING AND TIME */
-#text-writings-heidegger {
+/* writing.html >> HEIDEGGER's BEING AND TIME */
+#text-writing-heidegger {
     float: left;
     width: 10%;
     text-align: left;
@@ -140,7 +140,7 @@ footer {
     margin-right: 2px;
 }
 
-#image-writings-heidegger {
+#image-writing-heidegger {
     float: left;
     width: 90%;
     margin: -2%;
@@ -154,13 +154,13 @@ footer {
     margin-left: 40px;
 }
 
-#clear-writings-heidegger {
+#clear-writing-heidegger {
     clear: both;
 }
 
 
-/* writings.html >> THE TRUE COST OF A CUP OF COFFEE */
-#text-writings-coffee {
+/* writing.html >> THE TRUE COST OF A CUP OF COFFEE */
+#text-writing-coffee {
     float: left;
     width: 10%;
     text-align: left;
@@ -170,7 +170,7 @@ footer {
     margin-right: 2px;
 }
 
-#image-writings-coffee {
+#image-writing-coffee {
     float: left;
     width: 90%;
     margin: -2%;
@@ -184,13 +184,13 @@ footer {
     margin-left: 40px;
 }
 
-#clear-writings-coffee {
+#clear-writing-coffee {
     clear: both;
 }
 
 
-/* writings.html >> LOVE IS A SERIES OF SHORT PRAYER*/
-#text-writings-love {
+/* writing.html >> LOVE IS A SERIES OF SHORT PRAYER*/
+#text-writing-love {
     float: left;
     width: 14%;
     text-align: left;
@@ -200,7 +200,7 @@ footer {
     margin-right: 2px;
 }
 
-#image-writings-love {
+#image-writing-love {
     float: left;
     width: 86%;
     margin: -4%;
@@ -214,13 +214,13 @@ footer {
     margin-left: 40px;
 }
 
-#clear-writings-love {
+#clear-writing-love {
     clear: both;
 }
 
 
-/* writings.html >> ON WRITING */
-#text-writings-on {
+/* writing.html >> ON WRITING */
+#text-writing-on {
     float: left;
     width: 10%;
     text-align: left;
@@ -230,7 +230,7 @@ footer {
     margin-right: 2px;
 }
 
-#image-writings-on {
+#image-writing-on {
     float: left;
     width: 90%;
     margin: -2%;
@@ -244,13 +244,13 @@ footer {
     margin-left: 40px;
 }
 
-#clear-writings-on {
+#clear-writing-on {
     clear: both;
 }
 
 
-/* writings.html >> FLOWERS & LETTERS */
-#text-writings-flowers {
+/* writing.html >> FLOWERS & LETTERS */
+#text-writing-flowers {
     float: left;
     width: 10%;
     text-align: left;
@@ -260,7 +260,7 @@ footer {
     margin-right: 2px;
 }
 
-#image-writings-flowers {
+#image-writing-flowers {
     float: left;
     width: 90%;
     margin: -2%;
@@ -274,13 +274,13 @@ footer {
     margin-left: 40px;
 }
 
-#clear-writings-flowers {
+#clear-writing-flowers {
     clear: both;
 }
 
 
-/* writings.html >> 28 DAYS */
-#text-writings-28 {
+/* writing.html >> 28 DAYS */
+#text-writing-28 {
     float: left;
     width: 10%;
     text-align: left;
@@ -290,7 +290,7 @@ footer {
     margin-right: 2px;
 }
 
-#image-writings-28 {
+#image-writing-28 {
     float: left;
     width: 90%;
     margin: -2%;
@@ -304,19 +304,19 @@ footer {
     margin-left: 40px;
 }
 
-#clear-writings-28 {
+#clear-writing-28 {
     clear: both;
 }
 
 
-/* visuals.html */
-.border-visuals {
+/* photography.html */
+.border-photography {
     margin-top: 1%;
     margin-left: 5%;
     margin-right: 20%;
     padding-left: 0%;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding-right: 1%;
+    padding-bottom: 1%;
     border-style: solid;
     border-color: #5D564C;
     background-color: #dad2c9;
@@ -324,37 +324,94 @@ footer {
     text-align: left;
 }
 
-.column-visuals img {
-    width: 100px;
-    height: 100px;
-    margin-left: 0%;
-    margin-bottom: -15px;
+.column-photography img {
+    width: 120px;
+    height: 120px;
+    margin-left: 2%;
+    margin-top: -2%;
+    margin-bottom: -2%;
     object-fit: cover;
     vertical-align: center;
   }
 
-#clear-visuals {
+#clear-photography {
     clear: both;
 }
 
 
-/* snapshots.html */
-.row-grid {
+/* photography.html >> rashas souvenirs.html */
+.row-grid-souvenirs {
     display: flex;
     flex-wrap: wrap;
     margin-left: -45px;
     margin-right: 30px;  
-  }
+}
   
-  /* Create two equal columns that sits next to each other */
-  .column-grid {
+.column-grid-souvenirs {
     flex: 25%;
-  }
+}
   
-  .column-grid img {
+.column-grid-souvenirs img {
     width: 235px;
     height: 235px;
     margin-bottom: -15px;
     object-fit: cover;
     vertical-align: center;
-  }
+}
+
+
+/* photography.html >> summer in maurice.html */
+.img-maurice {
+    width: 98%;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: -15px;
+}
+
+.img-maurice-2 {
+    width: 48%;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: -15px;
+}
+
+
+/* photography.html >> winter in gaspe.html */
+.img-gaspe {
+    width: 98%;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: -15px;
+}
+
+.img-gaspe-2 {
+    width: 48%;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: -15px;
+}
+
+
+/* photography.html >> autumn in bic.html */
+.img-bic {
+    width: 98%;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: -15px;
+}
+
+
+/* photography.html >> summer in saguenay.html */
+.img-saguenay {
+    width: 98%;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: -15px;
+}
+
+.img-saguenay-2 {
+    width: 48%;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: -15px;
+}
