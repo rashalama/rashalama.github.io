@@ -111,6 +111,21 @@ footer {
     padding-top: 2px;
 }
 
+#caption-about {
+    font-size: 10px;
+    font-style: italic;
+    text-align: right;
+    margin-right: -80px;
+    margin-top: -25px;
+}
+
+a {
+    text-decoration: none;
+    color: #657B67;
+    font-family: 'Courier New';
+    font-size: 10px;
+}
+
 #clear-about {
     clear: both;
 }
