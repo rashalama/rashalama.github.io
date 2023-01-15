@@ -387,6 +387,22 @@ footer {
 }
 
 
+/* photography.html >> still of bouquets.html */
+.img-bouquets {
+    width: 98%;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: -15px;
+}
+
+.img-bouquets-2 {
+    width: 48%;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: -15px;
+}
+
+
 /* photography.html >> summer in maurice.html */
 .img-maurice {
     width: 98%;
