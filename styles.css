@@ -197,6 +197,66 @@ footer {
 }
 
 
+/* writing.html >> DEAR NEW YORK*/
+#text-writing-DNY {
+    float: left;
+    width: 14%;
+    text-align: left;
+    padding-left: 2px;
+    padding-right: 5px;
+    padding-top: 2px;
+    margin-right: 2px;
+}
+
+#image-writing-DNY {
+    float: left;
+    width: 86%;
+    margin: -4%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.img-DNY {
+    width: auto;
+    height: 35vh;
+    margin-left: 40px;
+}
+
+#clear-writing-DNY {
+    clear: both;
+}
+
+
+/* writing.html >> MEMOIRS OF MONTRÉAL*/
+#text-writing-MoM {
+    float: left;
+    width: 14%;
+    text-align: left;
+    padding-left: 2px;
+    padding-right: 5px;
+    padding-top: 2px;
+    margin-right: 2px;
+}
+
+#image-writing-MoM {
+    float: left;
+    width: 86%;
+    margin: -4%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.img-MoM {
+    width: auto;
+    height: 35vh;
+    margin-left: 40px;
+}
+
+#clear-writing-MoM {
+    clear: both;
+}
+
+
 /* writing.html >> LOVE IS A SERIES OF SHORT PRAYER*/
 #text-writing-love {
     float: left;
