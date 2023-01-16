@@ -137,65 +137,6 @@ footer {
     text-align: center;
 }
 
-/* writing.html >> HEIDEGGER's BEING AND TIME */
-#text-writing-heidegger {
-    float: left;
-    width: 10%;
-    text-align: left;
-    padding-left: 2px;
-    padding-right: 5px;
-    padding-top: 2px;
-    margin-right: 2px;
-}
-
-#image-writing-heidegger {
-    float: left;
-    width: 90%;
-    margin: -2%;
-    margin-top: 2px;
-    margin-bottom: 2px;
-}
-
-.img-heidegger {
-    width: auto;
-    height: 46vh;
-    margin-left: 40px;
-}
-
-#clear-writing-heidegger {
-    clear: both;
-}
-
-
-/* writing.html >> THE TRUE COST OF A CUP OF COFFEE */
-#text-writing-coffee {
-    float: left;
-    width: 10%;
-    text-align: left;
-    padding-left: 2px;
-    padding-right: 5px;
-    padding-top: 2px;
-    margin-right: 2px;
-}
-
-#image-writing-coffee {
-    float: left;
-    width: 90%;
-    margin: -2%;
-    margin-top: 2px;
-    margin-bottom: 2px;
-}
-
-.img-coffee {
-    width: auto;
-    height: 46vh;
-    margin-left: 40px;
-}
-
-#clear-writing-coffee {
-    clear: both;
-}
-
 
 /* writing.html >> DEAR NEW YORK*/
 #text-writing-DNY {
