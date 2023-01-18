@@ -82,6 +82,12 @@ footer {
     font-family: 'Courier New';
 }
 
+
+
+
+
+
+
 /* index.html >> ABOUT*/
 .border-about {
     margin-top: 1%;
@@ -123,7 +129,15 @@ footer {
     clear: both;
 }
 
-/* writing.html >> standard box template */
+
+
+
+
+
+
+
+
+/* writing.html >> standard box template w/ square previews */
 .border-writing {
     margin-top: 1%;
     margin-left: 5%;
@@ -137,9 +151,7 @@ footer {
     text-align: center;
 }
 
-
-/* writing.html >> DEAR NEW YORK*/
-#text-writing-DNY {
+#text-writing {
     float: left;
     width: 14%;
     text-align: left;
@@ -149,7 +161,7 @@ footer {
     margin-right: 2px;
 }
 
-#image-writing-DNY {
+#image-writing {
     float: left;
     width: 86%;
     margin: -4%;
@@ -157,76 +169,15 @@ footer {
     margin-bottom: 2px;
 }
 
-.img-DNY {
+.img-writing {
     width: auto;
     height: 35vh;
     margin-left: 40px;
 }
 
-#clear-writing-DNY {
+#clear-writing {
     clear: both;
 }
-
-
-/* writing.html >> MEMOIRS OF MONTRÉAL*/
-#text-writing-MoM {
-    float: left;
-    width: 14%;
-    text-align: left;
-    padding-left: 2px;
-    padding-right: 5px;
-    padding-top: 2px;
-    margin-right: 2px;
-}
-
-#image-writing-MoM {
-    float: left;
-    width: 86%;
-    margin: -4%;
-    margin-top: 2px;
-    margin-bottom: 2px;
-}
-
-.img-MoM {
-    width: auto;
-    height: 35vh;
-    margin-left: 40px;
-}
-
-#clear-writing-MoM {
-    clear: both;
-}
-
-
-/* writing.html >> LOVE IS A SERIES OF SHORT PRAYER*/
-#text-writing-love {
-    float: left;
-    width: 14%;
-    text-align: left;
-    padding-left: 2px;
-    padding-right: 5px;
-    padding-top: 2px;
-    margin-right: 2px;
-}
-
-#image-writing-love {
-    float: left;
-    width: 86%;
-    margin: -4%;
-    margin-top: 2px;
-    margin-bottom: 2px;
-}
-
-.img-love {
-    width: auto;
-    height: 35vh;
-    margin-left: 40px;
-}
-
-#clear-writing-love {
-    clear: both;
-}
-
 
 /* writing.html >> ON WRITING */
 #text-writing-on {
@@ -318,56 +269,71 @@ footer {
 }
 
 
-/* photography.html */
+
+
+
+
+
+
+
+/* photography.html >> standard box template */
 .border-photography {
     margin-top: 1%;
     margin-left: 5%;
     margin-right: 20%;
-    padding-left: 0%;
     padding-right: 1%;
-    padding-bottom: 1%;
+    padding-left: 1%;
     border-style: solid;
-    border-color: #513A30;
+    border-color: #5D564C;
     background-color: #E2DFCA;
     border-width: 1px;
-    text-align: left;
+    text-align: center;
 }
 
-.column-photography img {
-    width: 120px;
-    height: 120px;
-    margin-left: 2%;
-    margin-top: -2%;
-    margin-bottom: -2%;
-    object-fit: cover;
-    vertical-align: center;
-  }
+#text-photography {
+    float: left;
+    width: 14%;
+    text-align: left;
+    padding-left: 2px;
+    padding-right: 5px;
+    padding-top: 2px;
+    margin-right: 2px;
+}
+
+#image-photography {
+    float: left;
+    width: 86%;
+    margin: -4%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.img-photography {
+    width: auto;
+    height: 45vh;
+    margin-left: 40px;
+}
 
 #clear-photography {
     clear: both;
 }
 
-.row-grid-photography {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -45px;
-    margin-right: 30px;  
-}
-  
-.column-grid-photography {
-    flex: 25%;
-}
-  
-.column-grid-photography img {
-    width: 550px;
+/* photography.html >> STANDARD aka. landscape & portrait */
+.img-landscape {
+    width: 98%;
     height: auto;
+    margin-left: 15px;
     margin-bottom: -15px;
-    object-fit: cover;
-    vertical-align: center;
 }
 
+.img-portrait {
+    width: 48%;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: -15px;
+}
 
-/* photography.html >> rashas souvenirs.html */
+/* photography.html >> PERSONALIZED aka. rashas souvenirs.html */
 .row-grid-souvenirs {
     display: flex;
     flex-wrap: wrap;
@@ -385,77 +351,4 @@ footer {
     margin-bottom: -15px;
     object-fit: cover;
     vertical-align: center;
-}
-
-
-/* photography.html >> still of bouquets.html */
-.img-bouquets {
-    width: 98%;
-    height: auto;
-    margin-left: 15px;
-    margin-bottom: -15px;
-}
-
-.img-bouquets-2 {
-    width: 48%;
-    height: auto;
-    margin-left: 15px;
-    margin-bottom: -15px;
-}
-
-
-/* photography.html >> summer in maurice.html */
-.img-maurice {
-    width: 98%;
-    height: auto;
-    margin-left: 15px;
-    margin-bottom: -15px;
-}
-
-.img-maurice-2 {
-    width: 48%;
-    height: auto;
-    margin-left: 15px;
-    margin-bottom: -15px;
-}
-
-
-/* photography.html >> winter in gaspe.html */
-.img-gaspe {
-    width: 98%;
-    height: auto;
-    margin-left: 15px;
-    margin-bottom: -15px;
-}
-
-.img-gaspe-2 {
-    width: 48%;
-    height: auto;
-    margin-left: 15px;
-    margin-bottom: -15px;
-}
-
-
-/* photography.html >> autumn in bic.html */
-.img-bic {
-    width: 98%;
-    height: auto;
-    margin-left: 15px;
-    margin-bottom: -15px;
-}
-
-
-/* photography.html >> summer in saguenay.html */
-.img-saguenay {
-    width: 98%;
-    height: auto;
-    margin-left: 15px;
-    margin-bottom: -15px;
-}
-
-.img-saguenay-2 {
-    width: 48%;
-    height: auto;
-    margin-left: 15px;
-    margin-bottom: -15px;
 }
