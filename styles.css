@@ -129,6 +129,14 @@ footer {
     clear: both;
 }
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    color: #513A30;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
 
 
 
