@@ -190,6 +190,12 @@ table, th, td {
     margin-left: 40px;
 }
 
+.img-writing-onlyspecialdelivery {
+    width: 75vh;
+    height: auto;
+    margin-left: 40px;
+}
+
 #clear-writing {
     clear: both;
 }
