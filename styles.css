@@ -373,3 +373,214 @@ table, th, td {
     object-fit: cover;
     vertical-align: center;
 }
+
+
+
+
+
+
+
+
+
+/* work.html >> standard box & text template */
+.border-work {
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 20%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border-style: solid;
+    border-color: #5D564C;
+    background-color: #E2DFCA;
+    border-width: 1px;
+}
+
+#text-work {
+    float: left;
+    width: 14%;
+    text-align: left;
+    padding-left: 2px;
+    padding-right: 5px;
+    padding-top: 2px;
+    margin-right: 2px;
+}
+
+#clear-work {
+    clear: both;
+}
+
+.tooltip-work {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-work .tooltiptext-work {
+    visibility: hidden;
+    width: 335px;
+    font-size: 12px;
+    font-family: 'Courier New';
+    background-color: #869b88;
+    color: #e3e3e1;
+    text-align: left;
+    padding: 5px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    width: 335px;
+    margin-top: -10%;
+    margin-left: 20%;
+    z-index: 1;
+  }
+  
+  .tooltip-work:hover .tooltiptext-work {
+    visibility: visible;
+  }
+
+/* work.html >> photos for "8_PIGMENTS FROM THE LAND" */
+.outer-pigments {
+    padding-left: 150px;
+    padding-bottom: 10px;
+    margin-top: -160px;
+    margin-right: -10px;
+}
+
+.image-pigments {
+    display: flex;
+    justify-content: left;
+}
+
+.image-pigments img {
+    width: 145px;
+    padding: 5px;
+}
+
+/* work.html >> photos for "7_REFLECTION ON ORIENTATION" */
+.outer-orientation {
+    padding-left: 150px;
+    padding-bottom: 10px;
+    margin-right: -10px;
+}
+
+.image-orientation {
+    display: flex;
+    justify-content: left;
+    margin-top: -175px;
+}
+
+.image-orientation img {
+    width: 450px;
+    padding: 10px;
+}
+
+/* work.html >> photos for "6_COMPETITION & CO-EXISTENCE" */
+.outer-compco {
+    padding-left: 150px;
+    padding-bottom: 10px;
+    margin-right: -10px;
+}
+
+.image-compco {
+    display: flex;
+    justify-content: left;
+    margin-top: -240px;
+}
+
+.image-compco img {
+    width: auto;
+    height: 250px;
+    padding: 10px;
+}
+
+/* work.html >> photos for "5_TRYPTCH" */
+.outer-tryptch {
+    padding-left: 160px;
+    padding-bottom: 10px;
+    margin-top: -250px;
+    margin-right: -10px;
+}
+
+.image-tryptch {
+    display: flex;
+    justify-content: left;
+}
+
+.image-tryptch img {
+    width: 175px;
+    padding: 5px;
+}
+
+/* work.html >> photos for "4_SOIL IN CHARCOAL" */
+.outer-soil {
+    padding-left: 150px;
+    padding-bottom: 10px;
+    margin-right: -10px;
+}
+
+.image-soil {
+    display: flex;
+    justify-content: left;
+    margin-top: -190px;
+}
+
+.image-soil img {
+    width: 400px;
+    height: auto;
+    padding: 10px;
+}
+
+/* work.html >> photos for "3_HERBARIUM" */
+.outer-herbarium {
+    padding-left: 150px;
+    padding-bottom: 10px;
+    margin-right: -10px;
+}
+
+.image-herbarium {
+    display: flex;
+    justify-content: left;
+    margin-top: -180px;
+}
+
+.image-herbarium img {
+    width: auto;
+    height: 235px;
+    padding: 10px;
+}
+
+/* work.html >> photos for "2_BLACKSTONE PARK" */
+.outer-blackstone {
+    padding-left: 150px;
+    padding-bottom: 10px;
+    margin-right: -10px;
+}
+
+.image-blackstone {
+    display: flex;
+    justify-content: left;
+    margin-top: -190px;
+}
+
+.image-blackstone img {
+    width: auto;
+    height: 240px;
+    padding: 10px;
+}
+
+/* work.html >> photos for "1_ROOTS AS THREADS" */
+.outer-roots {
+    padding-left: 150px;
+    padding-bottom: 10px;
+    margin-right: -10px;
+}
+
+.image-roots {
+    display: flex;
+    justify-content: left;
+    margin-top: -190px;
+}
+
+.image-roots img {
+    width: 290px;
+    height: auto;
+    padding: 10px;
+}
