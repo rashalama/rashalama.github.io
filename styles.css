@@ -436,6 +436,51 @@ table, th, td {
     visibility: visible;
   }
 
+/* work.html >> photos for "10_ON THE EARTH's FINGERPRINTS" */
+.outer-fingerprints {
+    padding-left: 150px;
+    padding-bottom: 10px;
+    margin-top: -200px;
+    margin-right: -10px;
+}
+
+.image-fingerprints {
+    display: flex;
+    justify-content: left;
+}
+
+.image-fingerprints img {
+    width: auto;
+    height: 225px;
+    padding: 10px;
+}
+
+.image-fingerprintsgif img {
+    display: block;
+    width: auto;
+    height: 300px;
+    padding: 10px;
+}
+
+/* work.html >> photos for "9_ONE MILE OF RIVER" */
+.outer-onemile {
+    padding-left: 150px;
+    padding-bottom: 10px;
+    margin-top: -260px;
+    margin-right: -10px;
+}
+
+.image-onemile {
+    display: flex;
+    justify-content: left;
+}
+
+.image-onemile img {
+    width: auto;
+    height: 600px;
+    padding: 10px;
+}
+
 /* work.html >> photos for "8_PIGMENTS FROM THE LAND" */
 .outer-pigments {
     padding-left: 150px;
