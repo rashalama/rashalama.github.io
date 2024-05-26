@@ -14,7 +14,7 @@ h1 {
 
 p {
     color: #513A30;
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'Courier New';
 }
 
@@ -22,7 +22,7 @@ a {
     text-decoration: none;
     color: #657B67;
     font-family: 'Courier New';
-    font-size: 14px;
+    font-size: 15px;
 }
 
 nav {
@@ -88,7 +88,7 @@ footer {
     text-align: center;
     color: #513A30;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 
