@@ -354,6 +354,26 @@ table, th, td {
     margin-bottom: -15px;
 }
 
+/* photography.html >> grid for vehicular tramps stamps.html */
+.row-grid-vehicular {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -45px;
+    margin-right: 30px;  
+}
+  
+.column-grid-vehicular {
+    flex: 25%;
+}
+  
+.column-grid-vehicular img {
+    width: 235px;
+    height: 235px;
+    margin-bottom: -15px;
+    object-fit: cover;
+    vertical-align: center;
+}
+
 
 
 
